@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { Home } from "../Home";
 import { Container } from "./style";
 
 export function StartPage() {
@@ -5,7 +7,7 @@ export function StartPage() {
         <Container>
             <div>
                 <h1>Make<span>List</span></h1>
-                <button>Start</button>
+                <Link to="/Home">Start</Link>
             </div>
         </Container>
     );

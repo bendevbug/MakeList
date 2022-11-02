@@ -26,13 +26,13 @@ export const Container = styled.main`
             padding: 0.25rem;
             text-align: center;
             cursor: pointer;
-            width: 14.5rem;
-            height: 2rem;
+            width: 12rem;
+            height: 3rem;
             border-radius: 0.25rem;
             font-weight: 700;
             font-size: 1rem;
             transition: all 0.2S;
-            
+            margin-top: 2rem;
         }
         button:hover{
                 background: #A9A9A9;
