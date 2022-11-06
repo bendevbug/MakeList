@@ -2,19 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.div`
         background: #E2E2E2;
-        height: 100vh;
+        height: 100%;
         width: auto;
         float: left;
 
         div {
             width: 19rem;
-            height: 100vh;
+            height: 60vh;
             background: #126BAB;
             display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             padding: 2rem;
-
+            border-radius: 0 0.25rem 0.25rem 0;
             img {
                 width: 6vw;
                 border-radius: 10rem;
@@ -23,6 +23,7 @@ export const Container = styled.div`
                 width: auto;
                 margin: 1rem 0;
                 font-size: 1.3rem;
+                color: #fff;
             }
         }
         section {
@@ -39,22 +40,18 @@ export const Container = styled.div`
                     margin: -0.25rem 1.5rem;
                     float: inline-end;
                 }
-
                 a {
                     margin: 1rem 0rem;
                     font-size: 1.5rem;
                     text-transform: uppercase;
                     font-weight: 900;
                     cursor: pointer;
-                    transition: all 0.2s;
-                }
-
-                a:first-child {
-                    color: #98D4FF;
+                    transition: all 0.18s;
+                    color: #fff;
                 }
 
                 a:hover {
-                    color: #98D4FF;
+                    color: #98d4ff;
                 }
         }
 `

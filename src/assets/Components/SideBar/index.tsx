@@ -1,6 +1,6 @@
 import { Container } from "./style";
 import icon from '../../Images/cellbit.jpg'
-import home from '../../Images/Home.svg'
+import home from '../../Images/Home1.svg'
 import task from '../../Images/addTask.svg'
 import { Link } from "react-router-dom";
 

@@ -12,6 +12,7 @@ export const Container = styled.main`
         color: #000;
         font-weight: 900;
         font-size: 5rem;
+        margin-bottom: 2rem;
 
         span {
         color: #2946DD;
@@ -19,22 +20,21 @@ export const Container = styled.main`
     }
 
     div {
-        button {
+        a {
             background-color: #D9D9D9;
             color: #2946DD;
             border: none;
-            padding: 0.25rem;
+            padding: 0.5rem 3rem;
             text-align: center;
             cursor: pointer;
-            width: 12rem;
+            width: 2rem;
             height: 3rem;
             border-radius: 0.25rem;
             font-weight: 700;
             font-size: 1rem;
             transition: all 0.2S;
-            margin-top: 2rem;
         }
-        button:hover{
+        a:hover{
                 background: #A9A9A9;
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
         }
