@@ -22,11 +22,13 @@ export function MenuTask() {
 
     async function retireTask(id: number) {
         
-        const filteredTasks = task?.filter(task => task.id !== id)
+        const filteredTasks = task?.filter((task: { id: number; }) => task.id !== id)
 
-        setTask(filteredTasks)
-        console.log(filteredTasks)
+        api.delete('/tasks/' + (id))
+
+        console.log('/tasks/' + (id) )
         
+        document.location.reload(true)
         
     }
 

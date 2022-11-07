@@ -31,8 +31,8 @@ export function AddTask(props: Task) {
            await api.addTask(title, description)
            setTask({title, description})
            console.log({title, description})
-           document.location.reload(true)
         }
+        document.location.reload(true)
     }
     
 
